@@ -1,0 +1,53 @@
+<html>
+<head>
+<link rel="stylesheet" href="survey.css"></link>
+</head>
+<body>
+<header>
+  <h1 id="title">Survey Form </h1>
+  <p id="description"> Let us know how can we improve Vivekanad Competition Center  </p></header>
+<div id="main">
+<form id="survey-form" method="GET" action="/"> 
+   <label id="name-label" for="name">* Name: </label>
+  <input id="name" type="text" placeholder="Enter your name" required></br></br>
+  <label id="email-label" for="email">* Email: </label>
+<input id="email" type="email" placeholder="Enter your email_id" required></br></br>
+  <label id="number-label" for="age">* Age: </label>
+<input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age">
+</br></br>
+<label id="role-label" for="name">Which option best describes your current role?: </label><br><br>
+<select id="dropdown">
+<option  value="select an option">Select an option</option>
+      <option  value="student">Student</option>
+      <option value="learner">Learner</option>
+      <option value="parent">parent</option>
+      <option value="preferNo">Prefer not to say</option>
+      <option value="other">Other</option>
+</select></br></br>
+<fieldset >
+ <legend>How likely is that you would recommend Vivekanand Competion Center to a friend?</legend>
+<label><input  value="1"  type="radio" name="radio-buttons">Definitely</label><br>
+<label><input value="2"  type="radio" name="radio-buttons">May be</label><br>
+<label><input  value="3"  type="radio" name="radio-buttons">Not sure</label>
+</fieldset>
+  </br>
+<fieldset >
+<legend >Things that should be improved in future.</legend>
+<label><input  value="1" type="checkbox">Study Notes</label><br>
+<label><input  value="2" type="checkbox">Reading Room Facilities</label><br>
+<label><input  value="3" type="checkbox" >Problem Solving Methods</label><br>
+<label><input  value="4" type="checkbox" >Test Pattern</label><br>
+<label><input  value="5" type="checkbox">
+  Videos<label><br>
+  <label><input  value="6" type="checkbox" >Meetups</label><br>
+  <label><input  value="7" type="checkbox" >Additional Courses</label>
+  </fieldset><br>
+   <label for="comments" id="comment">Any Comments or Suggestions?</label><br><br>
+  <textarea  style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..." id="suggest"></textarea>
+<br><br>
+<button id="submit" type="submit">Submit</button>
+</form>
+  </div>
+  </div>
+</body>
+</html>
