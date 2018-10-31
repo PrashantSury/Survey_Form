@@ -1,0 +1,42 @@
+body {
+ font-family: 'Raleway', Helvetica, sans-      serif;
+  background:url(http://www.sketchuptextureclub.com/public/texture_m/0041-light-beige-travertine-texture-seamless-bump.jpg); /*#DCDCDD;*/
+}
+header
+{
+  text-align: center;
+ }
+#title
+{
+  color: Green;
+}
+#main
+{
+  margin:25px auto ;
+  border: 1px solid;
+  padding: 30px;
+  box-shadow: 3px 5px #888888;
+  box-sizing: border-box;
+  width: 620px;
+  height: 700px;
+  background: white;   
+}
+
+@media (max-width: 620px) { /* CSS Rules */ 
+  #main{
+    box-sizing: border-box;
+    width: 90% ;
+    background:white;
+  }
+  fieldset
+  {
+    width: 90%;
+  }
+}
+  @media (max-height: 700px) { /* CSS Rules 
+  */
+    #main{
+   box-sizing: border-box;
+   height: 115%;
+       }
+} 
